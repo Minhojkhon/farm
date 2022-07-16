@@ -4,7 +4,8 @@
     require_once 'cow.php';
     class Animals
     {
-        public const AVAILABLE_ANIMALS = ['cow' => ['milk', 'Cow'], 'chicken' => ['egg', 'Chicken']];
+        public const AVAILABLE_ANIMALS = ['cow' => ['milk', 'Cow'], 'chicken' => ['egg', 'Chicken']]; // animal_name => [product, class_name]
+
         protected $animal_count;
         protected $production;
 
